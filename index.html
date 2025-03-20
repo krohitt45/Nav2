@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <h1>LOGO</h1>
+            </div>
+
+            <div class="nav-links">
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-btn">
+                <img src="download.png" alt="User Icon">
+                <button type="button">Login</button>
+                <button type="button">Register</button>
+                <i class="fa-solid fa-bars" id="menuicon" onclick="openMenu()"></i>
+                <i class="fa-sharp fa-solid fa-circle-xmark" id="close" onclick="closeMenu()"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
